@@ -1,8 +1,8 @@
-name: Unit testing
-run-name: GitHub Actions implementation
+name: Unit Test
+run-name: GitHub Actions Implementation
 on: [push]
 jobs:
-  test:
+  GitHub-Unit-Testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
